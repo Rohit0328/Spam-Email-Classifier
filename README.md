@@ -65,7 +65,7 @@ The models were evaluated on **1,870 unseen test emails** using accuracy, precis
 |---|---:|---:|---:|---:|
 | Logistic Regression | 97.27% | 97% | 92% | 95% |
 | Multinomial Naive Bayes | 86.90% | 98% | 50% | 66% |
-| **Linear SVM** | **99.63%** | **100%** | **99%** | **99%** |
+| Linear SVM | 99.63% | 100% | 99% | 99% |
 
 > Precision, recall, and F1-score values are rounded values from the classification reports.
 
