@@ -76,6 +76,34 @@ The Linear SVM achieved an accuracy of 99.63% on the test set.
 ### Confusion Matrix
 
 ```text
+
+
+## Insights
+
+### 1. Linear SVM performed best
+
+Among the three tested models, **Linear SVM achieved the highest accuracy of 99.63%** on the test set.
+
+This shows that Linear SVM worked particularly well with the TF-IDF features used in this project.
+
+### 2. Logistic Regression was a strong baseline
+
+Logistic Regression achieved **97.27% accuracy**.
+
+This shows that TF-IDF combined with traditional machine learning algorithms can perform well for spam email classification.
+
+### 3. Naive Bayes had lower spam recall
+
+Multinomial Naive Bayes achieved **86.90% accuracy**, but its spam recall was only **50%**.
+
+Its confusion matrix showed:
+
+```text
+                 Predicted
+              Ham      Spam
+
+Actual Ham    1385       5
+Actual Spam    240     240
                     Predicted
                  Ham       Spam
 
