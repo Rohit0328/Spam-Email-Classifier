@@ -71,7 +71,7 @@ The models were evaluated on **1,870 unseen test emails** using accuracy, precis
 
 ### Final Model: Linear SVM
 
-The **Linear SVM** achieved an accuracy of **99.63%** on the test set.
+The Linear SVM achieved an accuracy of 99.63% on the test set.
 
 ### Confusion Matrix
 
