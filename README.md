@@ -56,3 +56,28 @@ Model Comparison
 Final Linear SVM
      ↓
 Spam / Ham Prediction
+
+## Model Performance
+
+The models were evaluated on **1,870 unseen test emails** using accuracy, precision, recall, and F1-score.
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|---|---:|---:|---:|---:|
+| Logistic Regression | 97.27% | 97% | 92% | 95% |
+| Multinomial Naive Bayes | 86.90% | 98% | 50% | 66% |
+| **Linear SVM** | **99.63%** | **100%** | **99%** | **99%** |
+
+> Precision, recall, and F1-score values are rounded values from the classification reports.
+
+### Final Model: Linear SVM
+
+The **Linear SVM** achieved an accuracy of **99.63%** on the test set.
+
+### Confusion Matrix
+
+```text
+                    Predicted
+                 Ham       Spam
+
+Actual Ham       1389        1
+Actual Spam         6      474
